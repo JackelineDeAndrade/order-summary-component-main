@@ -1,0 +1,203 @@
+body {
+    /* background-image: url("./images/pattern-background-desktop.svg") no-repeat;  */
+    background: #e0e8ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    max-height: 100vh;
+    min-height: 100vh;
+
+}
+
+.background {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    
+
+}
+
+.card {
+    /* padding: 48px;  */
+    background: white;
+    max-width: 450px;
+    /* margin-top: 50px !important; */
+    border-radius: 16px;
+    /* margin-top: 50vh !important; */
+    /* transform: translateY(-50%); */
+    z-index: 1;
+    overflow: hidden;
+    /* margin: 102px; */
+}
+
+.ilustracao {
+
+}
+
+.dentro {
+    padding: 48px;
+}
+
+
+h1 {
+    font-family: "Red Hat Display";
+    font-size: 28px;
+    color: #1F2E55;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.you {
+    font-family: "Red Hat Display";
+    font-size: 16px;
+    color: #717FA6;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+}
+
+.musica {
+    display: flex;
+    background: #F7F9FF;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 354px;
+    padding: 25px;
+    border-radius: 16px;
+    
+}
+
+.musica > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+h2 {
+    font-family: "Red Hat Display";
+    font-size: 16px;
+    color: #1F2E55;
+    font-weight: 900;
+    margin: 0;
+    margin-bottom: 6px;
+}
+
+.preco {
+    font-family: "Red Hat Display";
+    font-size: 16px;
+    color: #717FA6;
+    font-weight: 400;
+   margin: 0;
+
+}
+
+.change {
+    font-family: "Red Hat Display";
+    font-size: 14px;
+    color: #382AE1;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.change:hover {
+    color: #766CF1;
+}
+
+
+button {
+    background: #382AE1;
+    color: white;
+    font-family: "Red Hat Display";
+    font-size: 15px;
+    font-weight: 900;
+    padding: 15px 102px;
+    border-radius: 16px;
+    border: 0;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    -webkit-box-shadow: 2px 41px 30px -12px rgba(223, 230, 251, 1);
+    -moz-box-shadow: 2px 41px 30px -12px rgba(223, 230, 251, 1);
+    box-shadow: 2px 41px 30px -12px rgba(223, 230, 251, 1);
+
+}
+
+button:hover {
+    background: #766CF1;
+}
+
+
+.cancel {
+    font-family: "Red Hat Display";
+    font-size: 15px;
+    font-weight: 900;
+    color: #717FA6;
+    text-align: center;
+    display: block;
+
+}
+
+.cancel:hover {
+    color: #1F2E55;
+}
+
+
+@media (max-width:400px) {
+    .card {
+        max-width: 322px;
+    }
+
+    .ilustracao {
+        width: 327px;
+        height: 160px;
+        
+    }
+
+    body {
+        min-height: 129vh;
+    }
+
+    h1 {
+       
+        font-size: 22px;
+    }
+
+    .dentro {
+        padding: 32px 24px;
+    }
+
+    .you {
+        font-size: 15px;
+    }
+
+    .musica {
+        padding: 16px;
+    }
+    
+    h2 {
+        font-size: 14px;
+    }
+
+    .preco {
+        font-size: 14px;
+    }
+
+    .change {
+        font-size: 13px;
+    }
+
+    button {
+        padding: 15px;
+        width: 100%;
+    }
+
+   
+
+
+}
